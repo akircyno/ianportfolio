@@ -84,7 +84,7 @@ export default function Contact() {
             <p className="text-lg font-black uppercase tracking-widest text-[#E2E8F0]">
               Ira<span className="text-[#00F5FF]" style={{ textShadow: "0 0 10px rgba(0,245,255,0.6)" }}>.dev</span>
             </p>
-            <p className="mt-1 text-xs text-[#64748B]">Graphic Designer · Web Developer · Social Media Content Creator</p>
+            <p className="mt-1 text-xs text-[#64748B]">Graphic Designer · UI/UX Designer · Web Developer · Influencer Coordinator</p>
           </div>
           <nav className="flex flex-wrap justify-center gap-6 text-xs font-medium text-[#64748B]">
             {sitemap.map((link) => (

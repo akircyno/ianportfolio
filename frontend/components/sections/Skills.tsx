@@ -1,16 +1,30 @@
 const skillGroups = [
   {
     category: "Graphic Design",
-    color: "#F59E0B",
+    color: "#00F5FF",
     skills: [
       "Adobe Photoshop",
       "Adobe Illustrator",
       "Canva",
-      "Figma",
       "Typography",
       "Color Theory",
       "Brand Identity",
       "Print Design",
+      "Visual Assets",
+    ],
+  },
+  {
+    category: "UI/UX Design",
+    color: "#00F5FF",
+    skills: [
+      "Figma",
+      "Wireframing",
+      "Prototyping",
+      "UI Design",
+      "User Experience",
+      "Design Systems",
+      "User Research",
+      "Responsive Layouts",
     ],
   },
   {
@@ -29,17 +43,18 @@ const skillGroups = [
     ],
   },
   {
-    category: "Social Media Content",
-    color: "#7C3AED",
+    category: "Influencer Coordinator & Social Media",
+    color: "#00F5FF",
     skills: [
+      "Influencer Coordination",
+      "Influencer Outreach",
+      "Assistant Social Media Management",
+      "Campaign Management",
       "Content Strategy",
-      "Instagram & Facebook",
-      "TikTok Content",
+      "Instagram & TikTok Strategy",
       "Copywriting",
       "Post Scheduling",
-      "Engagement Strategy",
-      "Analytics",
-      "Branding",
+      "Analytics & Reporting",
     ],
   },
 ];
@@ -65,20 +80,20 @@ export default function Skills() {
             </span>
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-relaxed text-[#64748B] md:text-base">
-            A wide range of tools and skills across creative and technical
+            A wide range of tools and skills across creative, technical, and digital marketing
             disciplines.
           </p>
         </div>
 
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {skillGroups.map((group) => (
             <div
               key={group.category}
-              className="rounded-2xl border border-[#1E1E2E] bg-[#111118] p-7 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1"
+              className="rounded-2xl border border-[#1E1E2E] bg-[#111118] p-7 shadow-[0_4px_20px_rgba(0,0,0,0.3)] transition-all duration-300 hover:-translate-y-1 hover:border-[#00F5FF]/40 hover:shadow-[0_8px_30px_rgba(0,245,255,0.1)]"
             >
               <div className="mb-5">
                 <h3
-                  className="text-xl font-black uppercase tracking-tight"
+                  className="text-lg font-black uppercase tracking-tight"
                   style={{ color: group.color }}
                 >
                   {group.category}
@@ -98,7 +113,7 @@ export default function Skills() {
                 {group.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="rounded-full border px-3 py-1.5 text-xs font-medium text-[#94A3B8] transition-all duration-200"
+                    className="rounded-full border px-3 py-1.5 text-xs font-medium text-[#94A3B8] transition-all duration-200 hover:border-[#00F5FF]/50 hover:text-[#00F5FF]"
                     style={{
                       borderColor: `${group.color}30`,
                       backgroundColor: `${group.color}08`,

@@ -1,5 +1,5 @@
 const highlights = [
-  { value: "3", label: "Core Expertise" },
+  { value: "4", label: "Core Expertise" },
   { value: "6", label: "Projects Built" },
   { value: "12+", label: "Tools & Tech" },
 ];
@@ -12,6 +12,7 @@ const tools = [
   "Figma",
   "VS Code",
   "JavaScript",
+  "TypeScript",
   "React",
   "Next.js",
   "Tailwind CSS",
@@ -102,8 +103,9 @@ export default function About() {
               <div className="space-y-3">
                 {[
                   { label: "Graphic Design", pct: 90 },
+                  { label: "UI/UX Design", pct: 90 },
                   { label: "Web Development", pct: 90 },
-                  { label: "Social Media Content", pct: 85 },
+                  { label: "Influencer Coordination & SMM", pct: 85 },
                 ].map((skill) => (
                   <div key={skill.label}>
                     <div className="mb-1.5 flex justify-between text-xs font-medium">

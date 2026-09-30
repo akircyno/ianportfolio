@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ian Aquino — Graphic Designer & Web Developer",
+  title: "Ian Aquino — Graphic Designer, UI/UX & Web Developer",
   description:
-    "Portfolio of Ian Aquino — Graphic Designer, Website Developer, and Social Media Content Creator based in the Philippines.",
+    "Portfolio of Ian Aquino — Graphic Designer, UI/UX Designer, Website Developer, and Influencer Coordinator & Social Media Specialist based in the Philippines.",
   icons: {
     icon: "/images/profile/profile.png",
     shortcut: "/images/profile/profile.png",
