@@ -44,6 +44,7 @@ const workItems: WorkItem[] = [
       "Personal daily life and productivity web application built for habit tracking and personal workflow management.",
     thumbnail: "/images/work/ourlife.png",
     type: "image",
+    link: "https://ourlife-akizsa.vercel.app/",
   },
   {
     id: "pinned-marketing",
@@ -53,6 +54,7 @@ const workItems: WorkItem[] = [
       "Official agency website for a Social Media Marketing Agency, featuring digital marketing services, campaign highlights, and client results.",
     thumbnail: "/images/work/pinnedmarketing.png",
     type: "image",
+    link: "https://pinnedmarketing.pages.dev/",
   },
 ];
 
