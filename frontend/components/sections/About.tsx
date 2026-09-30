@@ -1,5 +1,5 @@
 const highlights = [
-  { value: "3", label: "Core Disciplines" },
+  { value: "3", label: "Core Expertise" },
   { value: "6", label: "Projects Built" },
   { value: "12+", label: "Tools & Tech" },
 ];
