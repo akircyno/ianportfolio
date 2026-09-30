@@ -82,7 +82,7 @@ export default function Contact() {
         <div className="mt-10 flex flex-col items-center justify-between gap-6 md:flex-row">
           <div>
             <p className="text-lg font-black uppercase tracking-widest text-[#E2E8F0]">
-              Ian<span className="text-[#00F5FF]" style={{ textShadow: "0 0 10px rgba(0,245,255,0.6)" }}>.dev</span>
+              Ira<span className="text-[#00F5FF]" style={{ textShadow: "0 0 10px rgba(0,245,255,0.6)" }}>.dev</span>
             </p>
             <p className="mt-1 text-xs text-[#64748B]">Graphic Designer · Web Developer · Social Media Content Creator</p>
           </div>

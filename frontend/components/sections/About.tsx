@@ -47,7 +47,7 @@ export default function About() {
 
             <div className="space-y-4 text-base leading-relaxed text-[#94A3B8]">
               <p>
-                I&apos;m <strong className="text-[#E2E8F0]">Ian Aquino</strong>, a multidisciplinary creative and web developer passionate about crafting engaging visual designs and functional digital experiences.
+                I&apos;m <strong className="text-[#E2E8F0]">Ian</strong>, a multidisciplinary creative and web developer passionate about crafting engaging visual designs and functional digital experiences.
               </p>
               <p>
                 My work spans graphic design, UI/UX prototyping, and modern front-end web development with tools like Next.js, React, and Figma.

@@ -53,7 +53,7 @@ export default function Navbar() {
         <div className="mx-auto flex h-20 w-full max-w-7xl items-center justify-between px-6 transition-[height] duration-300 md:px-12">
           {/* Logo */}
           <div className="text-lg font-extrabold uppercase tracking-widest md:text-xl">
-            <span className="text-[#E2E8F0]">Ian</span>
+            <span className="text-[#E2E8F0]">Ira</span>
             <span
               className="text-[#00F5FF]"
               style={{ textShadow: "0 0 12px rgba(0,245,255,0.7)" }}
